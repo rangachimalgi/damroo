@@ -1,7 +1,7 @@
 import { quiz_illustration } from "../../assets/home";
 import Container from "../Container";
 
-export default function () {
+export default function Quiz() {
   return (
     <section className="my-14">
       <Container>
