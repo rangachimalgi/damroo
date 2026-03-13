@@ -12,7 +12,7 @@ export default function Front() {
         <div
           className={`py-8 sm:rounded-3xl relative w-full h-[520px] sm:h-[620px] bg-homefrontbg bg-cover bg-center bg-no-repeat`}
         >
-          <div className="absolute inset-0 bg-black/35 backdrop-blur-sm sm:rounded-3xl" />
+          <div className="absolute inset-0 bg-black/10 sm:bg-black/20 sm:rounded-3xl" />
 
           {/* Mobile hero text */}
           <article className="lg:hidden absolute top-[18%] left-1/2 -translate-x-1/2 w-[90%] z-10">
