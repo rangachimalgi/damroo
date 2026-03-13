@@ -17,6 +17,17 @@ import portfolio from "./portfolio.png";
 import portfolio_2 from "./portfolio_2.png";
 import portfolio_3 from "./portfolio_3.png";
 import about from "./aboutus.jpg";
+import hanging from "./Hangingclip.jpeg"
+import standing from "./Standingsheet.jpeg";
+import hangings from "./Hangingsclip.jpeg";
+import fixclip from "./Fixclip.jpeg"
+import halfkundi from "./Halfkundi.jpeg"
+import ubracket from "./Ubracket.jpeg"
+import standingseam from "./Standingseam.jpeg"
+import goldenclip from "./Goldenclip.jpeg"
+import patti from "./Patti.jpeg"
+import mainstand from "./Mainstand.jpeg"
+import gistand from "./gistand.jpeg"
 
 import how_1 from "./how_1.png";
 import how_2 from "./how_2.png";
@@ -29,6 +40,17 @@ import news_5 from "./news_5.png";
 import logo_2 from "./logo_2.png";
 
 export {
+  hanging,
+  standing,
+  hangings,
+  fixclip,
+  halfkundi,
+  ubracket,
+  standingseam,
+  goldenclip,
+  patti,
+  mainstand,
+  gistand,
   funds_1,
   funds_2,
   funds_3,
