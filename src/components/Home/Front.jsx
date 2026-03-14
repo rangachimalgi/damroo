@@ -21,8 +21,8 @@ export default function Front() {
             </h1>
           </div>
 
-          {/* Precision paragraph: hidden on mobile only, visible sm→md */}
-          <article className="hidden sm:block lg:hidden absolute top-[18%] left-1/2 -translate-x-1/2 w-[90%] z-10">
+          {/* Precision paragraph (mobile + tablet) */}
+          <article className="lg:hidden absolute top-[18%] left-1/2 -translate-x-1/2 w-[90%] z-10">
             <div className="bg-white/90 rounded-2xl px-4 py-3 shadow-xl">
               <p className="text-[#111827] text-base sm:text-lg leading-snug font-extrabold text-center">
                 Precision sheet metal manufacturing &amp; industrial job work for OEMs and industries.
