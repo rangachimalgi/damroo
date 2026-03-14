@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { logo } from "../assets/home";
+import { logo, makeInIndiaLogo } from "../assets/home";
 import Container from "./Container";
 
 function Navbar() {
@@ -18,7 +18,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex gap-4 items-center">
             <img
-              className="h-[100px] w-[160px] cursor-pointer"
+              className="h-[120px] w-[192px] cursor-pointer object-contain"
               src={logo}
               alt="Damroo Components"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -52,6 +52,13 @@ function Navbar() {
               </div>
             </div>
           </div>
+
+          <img
+            src={makeInIndiaLogo}
+            alt="Make in India"
+            className="h-8 w-auto object-contain md:h-12 flex-shrink-0"
+            title="Make in India"
+          />
 
           {/* Login button removed for marketing site */}
           <div className="-mr-2 flex md:hidden">

@@ -6,7 +6,7 @@ module.exports = {
         xs: "410px",
       },
       backgroundImage: {
-        homefrontbg: "url(./assets/home/hero.jpg)",
+        homefrontbg: "url(./assets/home/hero.jpeg)",
         "quiz-bg": "url(./assets/home/quiz_bg.png)",
       },
       colors: {

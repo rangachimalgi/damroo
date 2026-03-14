@@ -38,6 +38,7 @@ import news_3 from "./news_3.png";
 import news_4 from "./news_4.png";
 import news_5 from "./news_5.png";
 import logo_2 from "./logo_2.png";
+import makeInIndiaLogo from "./makeInIndiaLogo.png";
 
 export {
   hanging,
@@ -79,4 +80,5 @@ export {
   news_3,
   news_4,
   news_5,
+  makeInIndiaLogo,
 };
