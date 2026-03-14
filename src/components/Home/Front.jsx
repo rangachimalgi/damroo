@@ -14,8 +14,15 @@ export default function Front() {
         >
           <div className="absolute inset-0 bg-black/10 sm:bg-black/20 sm:rounded-3xl" />
 
-          {/* Mobile hero text */}
-          <article className="lg:hidden absolute top-[18%] left-1/2 -translate-x-1/2 w-[90%] z-10">
+          {/* Centered welcome text */}
+          <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+            <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-center drop-shadow-lg px-4">
+              Welcome to Damroo Components
+            </h1>
+          </div>
+
+          {/* Precision paragraph: hidden on mobile only, visible sm→md */}
+          <article className="hidden sm:block lg:hidden absolute top-[18%] left-1/2 -translate-x-1/2 w-[90%] z-10">
             <div className="bg-white/90 rounded-2xl px-4 py-3 shadow-xl">
               <p className="text-[#111827] text-base sm:text-lg leading-snug font-extrabold text-center">
                 Precision sheet metal manufacturing &amp; industrial job work for OEMs and industries.
@@ -23,17 +30,17 @@ export default function Front() {
             </div>
           </article>
 
-          <div className="absolute bottom-[24%] sm:left-[6%] left-[5%] flex items-center flex-wrap gap-4 z-10">
+          <div className="absolute bottom-4 right-4 sm:bottom-[24%] sm:left-[6%] sm:right-auto flex items-center flex-wrap gap-2 sm:gap-4 justify-end sm:justify-start z-10">
             <button
               onClick={() => handleScrollTo("contact")}
-              className="sm:text-[20px] bg-button-primary text-[#111827] hover:bg-button-primary-hover transition-colors sm:px-10 px-3 py-3 rounded-md capitalize sm:w-auto w-full font-extrabold tracking-wide shadow-lg shadow-black/25"
+              className="text-xs sm:text-[20px] bg-button-primary text-[#111827] hover:bg-button-primary-hover transition-colors px-3 py-2 sm:px-10 sm:py-3 rounded-md capitalize w-auto font-extrabold tracking-wide shadow-lg shadow-black/25"
             >
               Reach us at
             </button>
 
             <button
               onClick={() => handleScrollTo("services")}
-              className="sm:text-[20px] text-[#111827] sm:px-10 px-3 py-3 rounded-md border-[1px] border-transparent bg-white capitalize sm:w-auto w-full font-extrabold tracking-wide hover:bg-[#F3F4F6] shadow-lg shadow-black/25"
+              className="text-xs sm:text-[20px] text-[#111827] px-3 py-2 sm:px-10 sm:py-3 rounded-md border-[1px] border-transparent bg-white capitalize w-auto font-extrabold tracking-wide hover:bg-[#F3F4F6] shadow-lg shadow-black/25"
             >
               View services
             </button>
