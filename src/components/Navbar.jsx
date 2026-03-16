@@ -13,9 +13,9 @@ function Navbar() {
     }
   };
   return (
-    <nav className="py-2 z-40">
+    <nav className="py-3 z-40">
       <Container>
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-24">
           <div className="flex gap-4 items-center">
             <img
               className="h-[120px] w-[192px] cursor-pointer object-contain"

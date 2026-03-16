@@ -6,12 +6,16 @@ export default function Footer() {
     <footer className="bg-white py-14 text-[#111827] border-t border-gray-200">
       <Container>
         <div className="flex flex-col sm:flex-row items-center sm:items-center sm:text-left text-center gap-6 sm:gap-10">
-          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
-            <img src={logo} alt="Damroo Components" className="w-72 h-auto max-h-16 object-contain" />
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+            <img
+              src={logo}
+              alt="Damroo Components"
+              className="w-80 h-auto max-h-20 object-contain"
+            />
             <img
               src={makeInIndiaLogo}
               alt="Make in India"
-              className="h-14 w-auto object-contain sm:h-16"
+              className="h-16 w-auto object-contain sm:h-20"
               title="Make in India"
             />
           </div>
